@@ -1,0 +1,45 @@
+## 🔥 DOSSIERS DE BUILD (Compilateur)
+# Exclut les fichiers compilés et les binaires
+[Dd]ebug/
+[Dd]ebugPS/
+[Rr]elease/
+[Rr]eleasePS/
+bbin/
+bin/
+obj/
+x64/
+x86/
+[Aa]rm/
+[Aa]rm64/
+
+## 🛠️ OUTILS ET IDE (Visual Studio / JetBrains Rider)
+# Fichiers de configuration utilisateur et cache de l'IDE
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+## 📦 PACKAGES ET DÉPENDANCES
+# Cache des packages NuGet
+*.nuget.props
+*.nuget.targets
+project.lock.json
+project.fragment.lock.json
+packages/
+
+## 🔐 SÉCURITÉ ET CONFIGURATION LOCALE
+# Fichiers secrets ou de configuration spécifiques à votre machine
+appsettings.Development.json
+appsettings.Local.json
+*.usersecrets
+
+## 📈 ANALYSE ET TESTS
+# Résultats de tests, couverture de code et rapports de crash
+TestResults/
+*.sequenced
+*.trx
+*.vstest
+DotNetAnalyzers/
